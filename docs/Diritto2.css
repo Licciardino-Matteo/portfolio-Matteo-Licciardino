@@ -1,0 +1,58 @@
+/*Portogallo*/
+
+div{
+    background: darkslateblue;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    width: 450px;
+    margin: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+   text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#brano{
+    font-size: large;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+#Indietro{
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+li{
+    margin-top: 2%;
+}
