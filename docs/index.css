@@ -48,7 +48,6 @@ nav li a:hover{
 }
 
 body{
-    background-image: url(img/zyro-image.png);
     background-size: cover;
     background-position: center fixed;
 }
@@ -62,3 +61,74 @@ img{
     margin-top: 2px;
     float: left;
 }
+
+.switch {
+    font-size: 17px;
+    position: fixed; /* Cambio la posizione a "fixed" */
+    bottom: 20px; /* Spazio dal fondo */
+    right: 20px; /* Spazio dalla destra */
+    display: inline-block;
+    width: 4em;
+    height: 2em;
+    border-radius: 40px;
+    border: 3px solid black;
+}
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 40px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 10%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: cadetblue;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(120%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+
+  .black-bg {
+    background-color: #191c60;
+  }
+
+  .blue-bg{
+    background-color: #91a5f0;
+  }
+
+  .blue-bg {
+    background-image: linear-gradient(#91a5f0, #191c60);
+  }
+  
+  .black-bg {
+    background-image: linear-gradient(#191c60, #91a5f0);
+  }
