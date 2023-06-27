@@ -37,7 +37,7 @@ nav li {
 nav li a {
     font-size: large;
     text-transform: uppercase;
-    padding: 0px 30px;
+    padding: 0px 15px;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -60,6 +60,7 @@ img{
     height: 100px;
     margin-top: 2px;
     float: left;
+    margin-left: -30px;
 }
 
 .switch {

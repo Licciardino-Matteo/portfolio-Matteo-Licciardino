@@ -1,0 +1,45 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    margin-top: 2%;
+}
+
+a{
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:focus {
+    background-color: darkcyan;
+}
+
+a:hover {
+    background-color: darkblue;
+}
+
+a:active {
+    background-color: darkorange;
+}
